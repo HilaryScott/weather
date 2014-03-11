@@ -1,0 +1,282 @@
+/* line 3, ../sass/weathercss.scss */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+/* line 11, ../sass/weathercss.scss */
+#wrapper, #header, #nav {
+  width: 320px;
+}
+
+/* line 15, ../sass/weathercss.scss */
+#wrapper {
+  height: 533px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6fa1d2), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(top, #6fa1d2, #ffffff);
+  background-image: -moz-linear-gradient(top, #6fa1d2, #ffffff);
+  background-image: -o-linear-gradient(top, #6fa1d2, #ffffff);
+  background-image: linear-gradient(top, #6fa1d2, #ffffff);
+  background-position: 0% 50%;
+  text-align: center;
+}
+
+/* line 27, ../sass/weathercss.scss */
+#content {
+  position: relative;
+  top: 20px;
+  margin: 30px auto;
+  text-align: center;
+  padding-top: 9px;
+}
+
+/* line 35, ../sass/weathercss.scss */
+#header {
+  color: #ffffff;
+  height: 50px;
+  background: #000000;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* line 44, ../sass/weathercss.scss */
+h1 {
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+/* line 49, ../sass/weathercss.scss */
+h2 {
+  text-transform: uppercase;
+}
+
+/* line 53, ../sass/weathercss.scss */
+h3 {
+  font-size: 14pt;
+  font-weight: normal;
+}
+
+/* line 59, ../sass/weathercss.scss */
+header {
+  line-height: 0px;
+  padding-top: 0px;
+}
+
+/* line 67, ../sass/weathercss.scss */
+#nav {
+  height: 38px;
+  position: relative;
+  top: 49px;
+  left: 0px;
+  margin: 0 0 30px 0;
+  background-color: #258EE9;
+}
+
+/* line 77, ../sass/weathercss.scss */
+#navbutton {
+  float: left;
+  width: 30%;
+  padding: 11px 5px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  background-color: #007ada;
+}
+
+/* line 89, ../sass/weathercss.scss */
+#nav ul {
+  margin: 0px;
+  padding: 0px 0;
+  list-style: none;
+}
+
+/* line 94, ../sass/weathercss.scss */
+#nav li {
+  float: left;
+}
+
+/* line 97, ../sass/weathercss.scss */
+#nav li a {
+  padding: 11px 31px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* line 104, ../sass/weathercss.scss */
+#nav ul li a:hover {
+  background-color: #007ada;
+}
+
+/* line 109, ../sass/weathercss.scss */
+#submenu {
+  float: left;
+  margin: 10px 45px;
+  text-align: center;
+}
+
+/* line 116, ../sass/weathercss.scss */
+#button {
+  float: left;
+  width: 100px;
+  padding: 10px 0px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  background-color: #007ada;
+  margin: 5px;
+}
+
+/* line 127, ../sass/weathercss.scss */
+#weather {
+  height: 128px;
+  text-align: left;
+  padding: 0 10px 0 10px;
+}
+
+/* line 134, ../sass/weathercss.scss */
+.fm {
+  width: 40px;
+}
+
+/* line 138, ../sass/weathercss.scss */
+.fm2 {
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: 4px;
+  width: 55px;
+}
+
+/* line 147, ../sass/weathercss.scss */
+.td2 {
+  width: 30%;
+}
+
+/* line 151, ../sass/weathercss.scss */
+.td3 {
+  width: 50%;
+  padding: 10px;
+}
+
+/*maybe change to match weather3*/
+/* line 157, ../sass/weathercss.scss */
+.day {
+  font-size: 14pt;
+  display: block;
+}
+
+/* line 164, ../sass/weathercss.scss */
+.date {
+  font-size: 10pt;
+  color: #888;
+}
+
+/* line 169, ../sass/weathercss.scss */
+.date1, .date3 {
+  display: block;
+  padding-bottom: 10px;
+}
+
+/* line 174, ../sass/weathercss.scss */
+.date1, .date2, .date3 {
+  font-size: 10pt;
+  color: #888;
+}
+
+/* line 179, ../sass/weathercss.scss */
+.date3 {
+  margin-top: 4px;
+}
+
+/* line 187, ../sass/weathercss.scss */
+.temp1 {
+  font-size: 24pt;
+  font-weight: normal;
+  padding-right: 5px;
+  /*padding-bottom: 30px; */
+}
+
+/* line 194, ../sass/weathercss.scss */
+.temp2 {
+  font-size: 13pt;
+}
+
+/* line 197, ../sass/weathercss.scss */
+.desc, .desc1 {
+  font-size: 6.5pt;
+}
+
+/* line 201, ../sass/weathercss.scss */
+.desc1, .updated {
+  color: #888;
+}
+
+/* line 205, ../sass/weathercss.scss */
+.updated {
+  font-size: 14px;
+}
+
+/* line 208, ../sass/weathercss.scss */
+.topweather {
+  height: 40px;
+  vertical-align: middle;
+}
+
+/* line 213, ../sass/weathercss.scss */
+.btemp {
+  color: #fff;
+  font-size: 25pt;
+  display: block;
+  text-align: right;
+  padding-bottom: 30px;
+}
+
+/* line 221, ../sass/weathercss.scss */
+.feel {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* line 225, ../sass/weathercss.scss */
+#blue {
+  background: #1f5ad0;
+  width: 42%;
+  padding: 5px;
+}
+
+/* line 231, ../sass/weathercss.scss */
+.white {
+  color: #fff;
+  display: block;
+}
+
+/* line 236, ../sass/weathercss.scss */
+#second {
+  text-align: center;
+}
+
+/* line 240, ../sass/weathercss.scss */
+#ender {
+  position: absolute;
+  bottom: 106px;
+  right: 0px;
+}
+
+/* line 246, ../sass/weathercss.scss */
+footer {
+  height: 106px;
+  width: 100%;
+  background: #000;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  text-align: left;
+}
