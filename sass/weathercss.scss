@@ -1,0 +1,255 @@
+@import "compass";
+
+body {
+
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+#wrapper, #header, #nav {
+    width: 320px;
+}
+
+#wrapper{
+    height: 533px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    @include background-image(linear-gradient(top, #6fa1d2, white));
+    background-position: 0% 10%;
+    text-align: center;
+ 
+}
+
+#content {
+    position: relative;
+    top: 20px;
+   margin: 30px auto;
+   text-align: center;
+    padding-top: 9px;
+}
+
+#header {
+    color: #ffffff;
+    height: 50px;
+    background: #000000;
+    position: absolute;
+    top: 0px;
+    left: 0px;    
+    
+}
+h1{
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+h2{
+    text-transform: uppercase;
+
+}
+h3{
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+
+header{
+    line-height: 0px;
+    padding-top: 0px;
+}
+
+
+
+
+#nav {
+    height: 38px;
+    position: relative;
+    top: 49px;
+    left: 0px;
+    margin: 0 0 30px 0;
+    background-color: #258EE9;
+}
+
+
+#navbutton {
+    float: left;
+    width: 30%;
+    padding: 11px 5px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    background-color: #007ada;
+}
+
+
+
+#nav ul {
+    margin: 0px;
+    padding: 0px 0;
+    list-style: none;
+}
+#nav li {
+    float: left;   
+}
+#nav li a{
+    padding: 11px 31px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+#nav ul li a:hover{
+    background-color: #007ada;
+}
+
+
+#submenu {
+float: left;
+    margin: 10px 45px;
+    text-align: center;
+
+}
+
+#button {
+    float: left;
+    width: 100px;
+    padding: 10px 0px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    background-color: #007ada;
+    margin: 5px;
+}
+
+#weather {
+    height: 128px;
+    text-align: left;
+    padding: 0 10px 0 10px;
+}
+
+
+.fm {
+    width: 40px;
+}
+
+.fm2 {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 4px;
+    width: 55px;
+
+}
+
+.td2 {
+    width: 30%;
+}
+
+.td3 {
+    width: 50%;
+    padding: 10px;
+}
+
+/*maybe change to match weather3*/
+.day {
+    font-size: 14pt;
+    display: block;
+
+}
+
+
+.date{
+    font-size: 10pt;
+    color: #888;
+}
+
+.date1, .date3{
+    display: block;
+    padding-bottom: 10px;
+}
+
+.date1, .date2, .date3{
+    font-size: 10pt;
+    color: #888;
+}
+
+.date3 {
+    margin-top: 4px;
+}
+
+
+
+
+
+.temp1 {
+    font-size: 24pt;
+    font-weight: normal;
+    padding-right: 5px;
+    /*padding-bottom: 30px; */
+}
+
+.temp2 {
+    font-size: 13pt;
+}
+.desc, .desc1 {
+    font-size: 6.5pt;
+}
+
+.desc1, .updated {
+    color: #888;
+}
+
+.updated {
+    font-size: 14px;
+}
+.topweather {
+    height: 40px;
+    vertical-align:middle;
+}
+
+.btemp {
+    color: #fff;
+    font-size: 25pt;
+    display: block;
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+.feel {
+    font-size: 14px;
+    font-weight: normal;
+}
+#blue {
+    background: #1f5ad0;
+    width: 42%;
+    padding: 5px;
+}
+
+.white {
+    color: #fff;
+    display: block;
+}
+
+#second {
+    text-align: center;
+}
+
+#ender{
+    position: absolute;
+    bottom: 106px;
+    right: 0px;
+}
+
+footer {
+    height: 106px;
+    width: 100%;
+    background: #000;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: left;
+}
+
