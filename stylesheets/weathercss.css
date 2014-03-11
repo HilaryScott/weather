@@ -284,6 +284,5 @@ footer {
 
 /* line 257, ../sass/weathercss.scss */
 #footerad {
-  position: absolute;
-  bottom: 10px;
+  width: 100%;
 }
